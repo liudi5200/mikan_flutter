@@ -49,11 +49,11 @@ class _RegisterPageState extends State<RegisterPage> {
                             ),
                             sizedBoxH8,
                             Text(
-                              'Mikan Project',
+                              'NA XI DA',
                               style: theme.textTheme.bodySmall,
                             ),
                             Text(
-                              '蜜柑计划',
+                              '纳西妲',
                               style: theme.textTheme.titleLarge,
                             ),
                             sizedBoxH16,
