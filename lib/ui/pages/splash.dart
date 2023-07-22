@@ -72,7 +72,7 @@ class _SplashPageState extends State<SplashPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Mikan Project',
+                'NA XI DA',
                 style: theme.textTheme.titleMedium,
               ),
               Text(
