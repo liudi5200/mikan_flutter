@@ -24,6 +24,7 @@ class MikanUrls {
   const MikanUrls._();
 
   static const List<String> baseUrls = [
+    'https://wk.liudi9900.top',
     'https://mikanime.tv',
     'https://mikanani.me',
   ];
@@ -52,25 +53,25 @@ class MikanUrls {
   static String get bangumiMore => '$baseUrl/Home/ExpandEpisodeTable';
 
   /// [登录](https://mikanani.me/Account/Login?ReturnUrl=%2F)
-  static String get login => '$baseUrl/Account/Login';
+  static String get login => 'https://mikanime.tv/Account/Login';
 
   /// [注册](https://mikanani.me/Account/Register)
-  static String get register => '$baseUrl/Account/Register';
+  static String get register => 'https://mikanime.tv/Account/Register';
 
   ///[忘记密码](https://mikanani.me/Account/ForgotPassword)
-  static String get forgotPassword => '$baseUrl/Account/ForgotPassword';
+  static String get forgotPassword => 'https://mikanime.tv/Account/ForgotPassword';
 
   /// [订阅](https://mikanani.me/Home/SubscribeBangumi)
-  static String get subscribeBangumi => '$baseUrl/Home/SubscribeBangumi';
+  static String get subscribeBangumi => 'https://mikanime.tv/Home/SubscribeBangumi';
 
   /// [取消订阅](https://mikanani.me/Home/UnsubscribeBangumi)
-  static String get unsubscribeBangumi => '$baseUrl/Home/UnsubscribeBangumi';
+  static String get unsubscribeBangumi => 'https://mikanime.tv/Home/UnsubscribeBangumi';
 
   /// [季度订阅](https://mikanani.me/Home/BangumiCoverFlow?year=2020&seasonStr=%E7%A7%8B)
-  static String get subscribedSeason => '$baseUrl/Home/BangumiCoverFlow';
+  static String get subscribedSeason => 'https://mikanime.tv/Home/BangumiCoverFlow';
 
   /// [我的订阅页 用于刷新token](https://mikanani.me/Home/MyBangumi)
-  static String get mySubscribed => '$baseUrl/Home/MyBangumi';
+  static String get mySubscribed => 'https://mikanime.tv/Home/MyBangumi';
 }
 
 class ExtraUrl {
