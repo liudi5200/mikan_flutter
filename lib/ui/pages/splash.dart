@@ -76,7 +76,7 @@ class _SplashPageState extends State<SplashPage> {
                 style: theme.textTheme.titleMedium,
               ),
               Text(
-                '点我进入',
+                '进入异界',
                 style: theme.textTheme.bodySmall,
               ),
             ],
