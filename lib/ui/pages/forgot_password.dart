@@ -48,11 +48,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                             ),
                             sizedBoxH8,
                             Text(
-                              'Mikan Project',
+                              'NA XI DA',
                               style: theme.textTheme.bodySmall,
                             ),
                             Text(
-                              '蜜柑计划',
+                              '纳西妲',
                               style: theme.textTheme.titleLarge,
                             ),
                             sizedBoxH42,
