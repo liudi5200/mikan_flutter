@@ -9,8 +9,7 @@ class Donate extends StatelessWidget {
   const Donate({super.key});
 
   static const _list = [
-    ['支付宝', '按照提示，点击打开支付宝即可', 'https://donate.bytex.space?p=alipay'],
-    ['微信', '微信扫码或者下载图片在微信内识别', 'https://donate.bytex.space/'],
+    ['bilibili', '按照提示，点击打开支付宝即可', 'https://space.bilibili.com/203284804']
   ];
 
   @override
