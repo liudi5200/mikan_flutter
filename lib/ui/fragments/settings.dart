@@ -89,7 +89,7 @@ class SettingsPanel extends StatelessWidget {
       builder: (context, user, __) {
         final hasLogin = user?.hasLogin ?? false;
         return SliverPinnedAppBar(
-          title: "Hi, ${hasLogin ? user!.name : "请登录 👉"}",
+          title: "Hi, ${hasLogin ? user!.name : "传送门 👉"}",
           leading: buildAvatar(user?.avatar),
           startPadding: 16.0,
           endPadding: 8.0,
@@ -156,7 +156,7 @@ class SettingsPanel extends StatelessWidget {
           children: [
             Expanded(
               child: Text(
-                '镜像地址',
+                '数据源',
                 style: theme.textTheme.titleMedium,
               ),
             ),
@@ -419,32 +419,6 @@ class SettingsPanel extends StatelessWidget {
     );
   }
 
-  Widget _buildDonate(BuildContext context, ThemeData theme) {
-    return RippleTap(
-      onTap: () {
-        MBottomSheet.show(
-          context,
-          (context) => const MBottomSheet(child: Donate()),
-        );
-      },
-      child: Container(
-        padding: edgeH24,
-        height: 50.0,
-        child: Row(
-          children: [
-            Expanded(
-              child: Text(
-                '支持一下',
-                style: theme.textTheme.titleMedium,
-              ),
-            ),
-            const Icon(Icons.thumb_up_outlined),
-          ],
-        ),
-      ),
-    );
-  }
-
   Widget _buildClearCache(
     BuildContext context,
     SettingsModel model,
@@ -487,7 +461,7 @@ class SettingsPanel extends StatelessWidget {
     return RippleTap(
       onTap: () {
         launchUrlString(
-          'https://github.com/iota9star/mikan_flutter/blob/master/PrivacyPolicy.md',
+          'https://www.pixiv.net/',
         );
       },
       child: Container(
