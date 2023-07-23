@@ -27,7 +27,7 @@ class Announcements extends StatelessWidget {
         refreshOnStart: true,
         child: CustomScrollView(
           slivers: [
-            const SliverPinnedAppBar(title: '公告'),
+            const SliverPinnedAppBar(title: '数据源公告'),
             Selector<IndexModel, List<Announcement>?>(
               builder: (context, v, child) {
                 if (v.isNullOrEmpty) {
