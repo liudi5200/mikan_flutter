@@ -419,6 +419,32 @@ class SettingsPanel extends StatelessWidget {
     );
   }
 
+Widget _buildDonate(BuildContext context, ThemeData theme) {
+    return RippleTap(
+      onTap: () {
+        MBottomSheet.show(
+          context,
+          (context) => const MBottomSheet(child: Donate()),
+        );
+      },
+      child: Container(
+        padding: edgeH24,
+        height: 50.0,
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(
+                '支持一下',
+                style: theme.textTheme.titleMedium,
+              ),
+            ),
+            const Icon(Icons.thumb_up_outlined),
+          ],
+        ),
+      ),
+    );
+  }
+  
   Widget _buildClearCache(
     BuildContext context,
     SettingsModel model,
