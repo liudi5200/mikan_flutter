@@ -431,7 +431,7 @@ class _PinedHeader extends StatelessWidget {
                                   user == null || user.name.isNullOrBlank;
                               return Text(
                                 withoutName
-                                    ? 'Mikan Project'
+                                    ? 'LD-Count'
                                     : 'Hi, ${user.name}',
                                 style: theme.textTheme.bodySmall,
                               );
