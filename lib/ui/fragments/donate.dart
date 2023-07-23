@@ -9,7 +9,7 @@ class Donate extends StatelessWidget {
   const Donate({super.key});
 
   static const _list = [
-    ['bilibili', '按照提示，点击打开支付宝即可', 'https://space.bilibili.com/203284804']
+    ['bilibili', '关注一下吧', 'https://space.bilibili.com/203284804']
   ];
 
   @override
